@@ -1,0 +1,308 @@
+@import (reference) "vars";
+
+* {
+    margin: 0;
+    border: none;
+    font-family: @sans;
+}
+
+/* DELETE THIS SECTION TAG BEFORE BEGINNING STYLING */
+
+/*
+Setting up text modifiers
+*/
+
+.text-serif {
+    font-family: @serif;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+.center-self {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+Setting up color themes
+*/
+
+.light {
+    background-color: @offwhite;
+    color: @dark;
+    a:not(.button) {
+        &, &:link, &:visited {
+            color: @orange;
+        }
+        &:hover, &:active {
+            color: @magenta;
+        }
+    }
+}
+
+.yellow {
+    background-color: @yellow;
+    color: @dark;
+    a:not(.button) {
+        &, &:link, &:visited {
+            color: @magenta;
+        }
+        &:hover, &:active {
+            color: @orange;
+        }
+    }
+}
+
+.magenta {
+    background-color: @magenta;
+    color: @white;
+    a:not(.button) {
+        &, &:link, &:visited {
+            color: @yellow;
+        }
+        &:hover, &:active {
+            color: @orange;
+        }
+    }
+}
+
+.gray {
+    color: @white;
+    background-color: @gray;
+    .button&, & h1, h2, h4 {
+        color: @yellow;
+    }
+    a:not(.button) {
+        &, &:link, &:visited {
+            color: @yellow;
+        }
+        &:hover, &:active {
+            color: @orange;
+        }
+    }
+}
+
+.translucent {
+    color: @white;
+    background-color: @dark;
+    .button& {
+        background-color: fade(@dark, 0%);
+    }
+    
+    h1, h2, h4 {
+        color: @yellow;
+    }
+    
+    .button& {
+        border: 2px solid @white;
+        border-radius: 5%;
+        &:hover, &:active {
+            background-color: @dark;
+        }
+    }
+    
+    a:not(.button) {
+        &, &:link, &:visited {
+            color: @yellow;
+        }
+        &:hover, &:active {
+            color: @orange;
+        }
+    }
+}
+
+/*
+Setting up div structure
+*/
+
+/* Background Divs are the outermost element and stretch background media to screen edge */
+.background {
+    width: 100%;
+}
+
+/* Container Divs maintain a consistent, width-appropriate margin */
+.container {
+    max-width: 1370px;
+    margin: auto;
+    padding-left: 115px;
+    padding-right: 115px;
+    @media @large {padding-left: 70px; padding-right: 70px;}
+    @media @medium {padding-left: 50px; padding-right: 50px;}
+    @media @small {padding-left: 40px; padding-right: 40px;}
+    @media @xsmall {padding-left: 20px; padding-right: 20px;}
+    @media @tiny {padding-left: 20px; padding-right: 20px;}
+}
+
+/* Narrow, medium, and wide Layout Divs vary the width of media, making the site visually engaging */
+
+.layout {
+    margin: auto;
+    padding: 20px 0;
+    @media @large {padding: 20px 0;}
+    @media @medium {padding: 15px 0;}
+    @media @small {padding: 15px 0;}
+    @media @xsmall {padding: 10px 0;}
+    @media @tiny {padding: 10px 0;}
+    
+    &:first-child {
+        padding-top: 80px;
+        @media @large {padding-top: 60px;}
+        @media @medium {padding-top: 50px;}
+        @media @small {padding-top: 40px;}
+        @media @xsmall {padding-top: 30px;}
+        @media @tiny {padding-top: 30px;}
+    }
+    &:last-child {
+        padding-bottom: 80px;
+        @media @large {padding-bottom: 60px;}
+        @media @medium {padding-bottom: 50px;}
+        @media @small {padding-bottom: 40px;}
+        @media @xsmall {padding-bottom: 30px;}
+        @media @tiny {padding-bottom: 30px;}
+    }
+}
+
+.center-contents {
+    text-align: center;
+}
+
+.narrow {
+    width: 50%;
+    @media @medium {width: 75%;}
+    @media @small {width: 75%;}
+    @media @xsmall {width: 75%;}
+    @media @tiny {width: 100%;}
+}
+
+.medium {
+    margin: auto;
+    width: 75%;
+    @media @medium {width: 83.3%;}
+    @media @small {width: 83.3%;}
+    @media @xsmall {width: 83.3%;}
+    @media @tiny {width: 100%;}
+}
+
+.wide {
+    width: 100%;
+}
+
+/*
+Setting up buttons and links
+*/
+
+a:not(.button) {
+    transition-property: color @ttime @tfunc;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px;
+    transition: opacity @ttime @tfunc, background-color @ttime @tfunc;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: @h-weight;
+    text-transform: uppercase;
+    .text-nowrap();
+    .text-align-center();
+    
+    &:not(.translucent):hover, &:not(.translucent):active {
+        opacity: 0.6;
+    }
+    * {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+button {
+    &:focus {
+        outline: none;
+    }
+}
+
+/*
+Setting up categories of text
+*/
+
+/* Normal Text */
+p {
+    font-size: 14pt;
+    font-weight: @p-weight;
+    .text-serif();
+    margin: 1em auto;
+    line-height: 150%;
+    &:first-child {
+        margin-top: 0;
+    }
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/* All heading are bold */
+h1, h2, h3, h4, h5 {
+    font-weight: @h-weight;
+    .text-align-center();
+    margin: 1.5em auto;
+    line-height: 150%;
+    &:first-child {
+        margin-top: 0;
+    }
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/* h1 is Extra-big Title */
+h1 {
+    font-size: 90px;
+    text-transform: uppercase;
+}
+
+/* h2 is Big Title */
+h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+/* h3 is Big Subtitle */
+h3 {
+    font-size: 24px;
+    .text-serif()
+}
+
+/* h4 is Section Title */
+h4 {
+    font-size: 32px;
+    text-transform: uppercase;
+    
+}
+
+/* h5 is Section Subtitle */
+h5 {
+    font-size: 16px;
+    .text-serif();
+}

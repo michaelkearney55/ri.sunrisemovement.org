@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  border: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+/* DELETE THIS SECTION TAG BEFORE BEGINNING STYLING */
+/*
+Setting up text modifiers
+*/
+.text-serif {
+  font-family: 'Source Serif Pro', serif;
+}
+.text-italic {
+  font-style: italic;
+}
+.text-align-left {
+  text-align: left;
+}
+.text-align-center {
+  text-align: center;
+}
+.text-align-right {
+  text-align: right;
+}
+.text-justify {
+  text-align: justify;
+}
+.text-nowrap {
+  white-space: nowrap;
+}
+.center-self {
+  margin-left: auto;
+  margin-right: auto;
+}
+/*
+Setting up color themes
+*/
+.light {
+  background-color: #FBFAEE;
+  color: #222222;
+}
+.light a:not(.button),
+.light a:not(.button):link,
+.light a:not(.button):visited {
+  color: #FD9014;
+}
+.light a:not(.button):hover,
+.light a:not(.button):active {
+  color: #8F0D56;
+}
+.yellow {
+  background-color: #FFDE16;
+  color: #222222;
+}
+.yellow a:not(.button),
+.yellow a:not(.button):link,
+.yellow a:not(.button):visited {
+  color: #8F0D56;
+}
+.yellow a:not(.button):hover,
+.yellow a:not(.button):active {
+  color: #FD9014;
+}
+.magenta {
+  background-color: #8F0D56;
+  color: #FFFFFF;
+}
+.magenta a:not(.button),
+.magenta a:not(.button):link,
+.magenta a:not(.button):visited {
+  color: #FFDE16;
+}
+.magenta a:not(.button):hover,
+.magenta a:not(.button):active {
+  color: #FD9014;
+}
+.gray {
+  color: #FFFFFF;
+  background-color: #33342E;
+}
+.button.gray,
+.gray h1,
+.gray h2,
+.gray h4 {
+  color: #FFDE16;
+}
+.gray a:not(.button),
+.gray a:not(.button):link,
+.gray a:not(.button):visited {
+  color: #FFDE16;
+}
+.gray a:not(.button):hover,
+.gray a:not(.button):active {
+  color: #FD9014;
+}
+.translucent {
+  color: #FFFFFF;
+  background-color: #222222;
+}
+.button.translucent {
+  background-color: rgba(34, 34, 34, 0);
+}
+.translucent h1,
+.translucent h2,
+.translucent h4 {
+  color: #FFDE16;
+}
+.button.translucent {
+  border: 2px solid #FFFFFF;
+  border-radius: 5%;
+}
+.button.translucent:hover,
+.button.translucent:active {
+  background-color: #222222;
+}
+.translucent a:not(.button),
+.translucent a:not(.button):link,
+.translucent a:not(.button):visited {
+  color: #FFDE16;
+}
+.translucent a:not(.button):hover,
+.translucent a:not(.button):active {
+  color: #FD9014;
+}
+/*
+Setting up div structure
+*/
+/* Background Divs are the outermost element and stretch background media to screen edge */
+.background {
+  width: 100%;
+}
+/* Container Divs maintain a consistent, width-appropriate margin */
+.container {
+  max-width: 1370px;
+  margin: auto;
+  padding-left: 115px;
+  padding-right: 115px;
+}
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+  .container {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 640px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+/* Narrow, medium, and wide Layout Divs vary the width of media, making the site visually engaging */
+.layout {
+  margin: auto;
+  padding: 20px 0;
+}
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+  .layout {
+    padding: 20px 0;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .layout {
+    padding: 15px 0;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .layout {
+    padding: 15px 0;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 640px) {
+  .layout {
+    padding: 10px 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .layout {
+    padding: 10px 0;
+  }
+}
+.layout:first-child {
+  padding-top: 80px;
+}
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+  .layout:first-child {
+    padding-top: 60px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .layout:first-child {
+    padding-top: 50px;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .layout:first-child {
+    padding-top: 40px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 640px) {
+  .layout:first-child {
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .layout:first-child {
+    padding-top: 30px;
+  }
+}
+.layout:last-child {
+  padding-bottom: 80px;
+}
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+  .layout:last-child {
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .layout:last-child {
+    padding-bottom: 50px;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .layout:last-child {
+    padding-bottom: 40px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 640px) {
+  .layout:last-child {
+    padding-bottom: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .layout:last-child {
+    padding-bottom: 30px;
+  }
+}
+.center-contents {
+  text-align: center;
+}
+.narrow {
+  width: 50%;
+}
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .narrow {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .narrow {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 640px) {
+  .narrow {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .narrow {
+    width: 100%;
+  }
+}
+.medium {
+  margin: auto;
+  width: 75%;
+}
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .medium {
+    width: 83.3%;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .medium {
+    width: 83.3%;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 640px) {
+  .medium {
+    width: 83.3%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .medium {
+    width: 100%;
+  }
+}
+.wide {
+  width: 100%;
+}
+/*
+Setting up buttons and links
+*/
+a:not(.button) {
+  transition-property: color 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+.button {
+  display: inline-block;
+  padding: 15px;
+  transition: opacity 0.2s cubic-bezier(0.77, 0.2, 0.05, 1), background-color 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-align: center;
+}
+.button:not(.translucent):hover,
+.button:not(.translucent):active {
+  opacity: 0.6;
+}
+.button * {
+  padding: 0;
+  margin: 0;
+}
+button:focus {
+  outline: none;
+}
+/*
+Setting up categories of text
+*/
+/* Normal Text */
+p {
+  font-size: 14pt;
+  font-weight: 400;
+  font-family: 'Source Serif Pro', serif;
+  margin: 1em auto;
+  line-height: 150%;
+}
+p:first-child {
+  margin-top: 0;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+/* All heading are bold */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+  text-align: center;
+  margin: 1.5em auto;
+  line-height: 150%;
+}
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child {
+  margin-top: 0;
+}
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child {
+  margin-bottom: 0;
+}
+/* h1 is Extra-big Title */
+h1 {
+  font-size: 90px;
+  text-transform: uppercase;
+}
+/* h2 is Big Title */
+h2 {
+  font-size: 48px;
+  text-transform: uppercase;
+}
+/* h3 is Big Subtitle */
+h3 {
+  font-size: 24px;
+  font-family: 'Source Serif Pro', serif;
+}
+/* h4 is Section Title */
+h4 {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+/* h5 is Section Subtitle */
+h5 {
+  font-size: 16px;
+  font-family: 'Source Serif Pro', serif;
+}
