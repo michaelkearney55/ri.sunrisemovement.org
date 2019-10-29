@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 
-<html>
+<html <?php include 'php/html-attributes.php' ?>>
     <head>
-        <?php include 'head.php' ?>
+        <?php include 'php/head.php' ?>
+        
+        <!-- Set up Open Graph Protocol -->
+        <meta property="og:site_name" content="Sunrise RI">
+        <meta property="og:title" content="South County Hub &#8213; Sunrise RI" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://ri.sunrisemovement.org/south-county-hub.php" />
+        <meta property="og:image" content="assets/photos/strike_street.jpg" />
+        <meta property="og:description" content="Sunrise Rhode Island is a movement of young people fighting to stop the climate crisis and create millions of good jobs in the process.">
+        
+        <!-- Link local stylesheet -->
+        <link rel="stylesheet" type="text/css" href="css/.south-county-hub.css">
     </head>
 
     <body>
-        <?php include 'header.php' ?>
-        
+        <?php include 'php/header.php' ?>
         <main>
-            <section class='dark-theme'>
-                <h1>South County Hub</h1>
-            </section>
+        <section class='background bg-image'>
+            <div class='container'>
+                <div class='layout wide'>
+                </div>
+            </div>
+        </section>s
         </main>
         
-        <?php include 'footer.php' ?>
+        
+        <?php include 'php/footer.php' ?>
     
     </body>
-    
 
 </html>

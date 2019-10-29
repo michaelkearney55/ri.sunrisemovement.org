@@ -1,0 +1,19 @@
+# Boilerplate .gitignore #
+##########################
+
+.DS_store
+
+
+# All LESS should be compiled into CSS #
+########################################
+
+*.less
+
+# Unused files shouldn't get committed #
+#########################################
+
+assets/photos/unused
+assets/photos/closeups
+unused_assets
+index.html
+make

@@ -46,8 +46,7 @@ header {
 
 .topnav {
     display: flex;
-    transition: transform calc(@ttime * 2) @tfunc;
-    
+    transition: transform @transform-ttime @transform-tfunc;
     
     .button {
         padding: 10px;
@@ -90,10 +89,13 @@ header {
         height: calc(100vh - @masthead-height);
         width: 100vw;
         top: @masthead-height;
-        bottom: 0;
         right: 100vw;
+        bottom: 0;
+        overflow-y: auto;
         flex-direction: column;
         align-items: flex-start;
+        padding-bottom: 20px;
+        box-sizing: border-box;
         
         &.transformed {
             transform: translateX(100%);
@@ -108,26 +110,10 @@ header {
         }
     }
     
-    .button:not(.donate) {
-        @media @medium {margin-left: 40px; margin-right: auto;}
-        @media @small {margin-left: 30px; margin-right: auto;}
-        @media @xsmall {margin-left: 10px; margin-right: auto;}
-        @media @tiny {margin-left: 10px; margin-right: auto;}
-    }
-    
-    .donate {
-        @media @medium {margin-left: 50px; margin-right: auto;}
-        @media @small {margin-left: 40px; margin-right: auto;}
-        @media @xsmall {margin-left: 20px; margin-right: auto;}
-        @media @tiny {margin-left: 20px; margin-right: auto;}
-    }
-    
-    
-    
-    /*@media @medium {padding-left: 50px; padding-right: 50px;}
+    @media @medium {padding-left: 50px; padding-right: 50px;}
     @media @small {padding-left: 40px; padding-right: 40px;}
     @media @xsmall {padding-left: 20px; padding-right: 20px;}
-    @media @tiny {padding-left: 20px; padding-right: 20px;}*/
+    @media @tiny {padding-left: 20px; padding-right: 20px;}
 }   
 
 .hamburger-wrapper {
@@ -157,8 +143,8 @@ header {
         background-color: @yellow;
         border-radius: @hamburger-border-radius;
         transition-property: transform, width;
-        transition-duration: @ttime;
-        transition-timing-function: @tfunc;
+        transition-duration: @transform-ttime;
+        transition-timing-function: @transform-tfunc;
         transform-origin: @hamburger-border-radius center;
         
         &.middle {

@@ -1,6 +1,9 @@
 <meta charset="UTF-8">
 
-<!-- Proudly designed and built in Providence, Rhode Island using PHP (http://php.net) and less (http://lesscss.org) -->
+<!-- Proudly developed in Providence, Rhode Island by Michael Kearney. Contact michaelkearney55 [AT] gmail [DOT] com with any questions, comments, or concerns. -->
+
+<!-- Fights wonky mobile viewport presets -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Sunrise RI</title>
 
@@ -11,18 +14,20 @@
 <meta name="author" content="Sunrise RI">
 
 <!-- Include favicon -->
-<link rel="icon" href="assets/logo.ico" type="image/x-icon">
+<link rel="icon" href="assets/logos/logo.ico" type="image/x-icon">
 
-<!-- Fights wonky mobile viewport presets -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
 <!-- Include fonts from Google and FontAwesome -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700|Source+Serif+Pro:400,700&display=swap" >
-<script src="https://kit.fontawesome.com/dd7580ef18.js" crossorigin="anonymous"></script>
+<!--<script src="https://kit.fontawesome.com/dd7580ef18.js" crossorigin="anonymous"></script>-->
 
 <!-- Include stylesheets -->
 <link rel="stylesheet" type="text/css" href="css/.style.css">
 <link rel="stylesheet" type="text/css" href="css/.header.css">
-<link rel="stylesheet" type="text/css" href="css/.main.css">
 <link rel="stylesheet" type="text/css" href="css/.footer.css">
+<link rel="stylesheet" type="text/css" href="css/.bg-images.css">
 
+<!-- Include asyncronous scripts -->
+<script src="https://kit.fontawesome.com/dd7580ef18.js" crossorigin="anonymous" defer></script>
+<script src='scripts/page-setup.js' defer></script>
