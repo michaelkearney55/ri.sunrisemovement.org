@@ -353,6 +353,20 @@ Setting up div structure
 .wide {
   width: 100%;
 }
+/* Set up preset flex layouts */
+.flex-two-column {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.flex-two-column > * {
+  width: 47%;
+}
+@media screen and (max-width: 900px) {
+  .flex-two-column > * {
+    width: 100%;
+  }
+}
 /*
 Setting up buttons and links
 */

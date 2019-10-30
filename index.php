@@ -14,6 +14,7 @@
         
         <!-- Link local stylesheet -->
         <link rel="stylesheet" type="text/css" href="css/.index.css">
+        
     </head>
 
     <body>
@@ -33,11 +34,10 @@
                 <div class="layout narrow">
                     <h2>A heading</h2>
                     <p>Massa tincidunt nunc pulvinar sapien. Diam maecenas ultricies mi eget mauris pharetra et. Enim nunc faucibus a pellentesque sit amet porttitor eget dolor. Auctor elit sed vulputate mi. Sit amet justo donec enim diam. Varius quam quisque id diam. Ipsum dolor sit amet consectetur adipiscing. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Laoreet suspendisse interdum consectetur libero id faucibus. Nibh nisl condimentum id venenatis a.</p>
-                    <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v3/form/sign-up-for-text-alerts-from-sunrise-ri?format=js&source=widget'></script><div id='can-form-area-sign-up-for-text-alerts-from-sunrise-ri' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
                 </div>
             </div>
         </section>
-        <section class="background translucent" style="background-image:url(https://ri.sunrisemovement.org/wp-content/uploads/2019/04/Sunrise-RI-Picture-Background-Grayscale-e1555028519509.png)">
+        <section class="background bg-image" style="background-image:url(https://ri.sunrisemovement.org/wp-content/uploads/2019/04/Sunrise-RI-Picture-Background-Grayscale-e1555028519509.png)">
             <div class="container">
                 <div class="layout medium">
                     <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>

@@ -257,6 +257,22 @@ Setting up div structure
     width: 100%;
 }
 
+/* Set up preset flex layouts */
+
+.flex-two-column {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    &>* {
+        width: 47%;
+        @media @mobile {
+            width: 100%;
+        }
+    }
+}
+
+
 
 /*
 Setting up buttons and links

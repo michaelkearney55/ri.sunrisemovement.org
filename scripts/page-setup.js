@@ -19,8 +19,4 @@ document.addEventListener("DOMContentLoaded", function () {
     var squares = document.getElementsByClassName('square'),
         j = 0;
     
-
-    
-
-    
 });
