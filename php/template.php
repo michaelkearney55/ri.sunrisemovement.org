@@ -24,7 +24,7 @@
                 <div class='layout wide'>
                 </div>
             </div>
-        </section>s
+        </section>
         </main>
         
         

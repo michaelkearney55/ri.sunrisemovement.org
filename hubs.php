@@ -28,10 +28,11 @@
                 </div>
                 <div class='layout wide'>
                     <div class="hub-button-wrapper">
-                        <a href="barrington.php" class="barrington-splash square button bg-image" data-square-content="Barrington"><div class='inner'><h2>Barrington</h2></div></a>
-                        <a href="brown-risd.php" class="brown-risd-splash square button bg-image" data-square-content="Brown &#38; RISD"><div class='inner'><h2>Brown &#38; RISD</h2></div></a>
-                        <a href="providence.php" class="providence-splash square button bg-image" data-square-content="Providence"><div class='inner'><h2>Providence</h2></div></a>
-                        <a href="south-county.php" class="south-county-splash square button bg-image" data-square-content="South County"><div class='inner'><h2>South County</h2></div></a>
+                        <a href="barrington-hub.php" class="barrington-splash square button bg-image" data-square-content="Barrington"><div class='inner'><h2>Barrington</h2></div></a>
+                        <a href="brown-risd-hub.php" class="brown-risd-splash square button bg-image" data-square-content="Brown &#38; RISD"><div class='inner'><h2>Brown &#38; RISD</h2></div></a>
+                        <a href="providence-hub.php" class="providence-splash square button bg-image" data-square-content="Providence"><div class='inner'><h2>Providence</h2></div></a>
+                        <a href="south-county-hub.php" class="south-county-splash square button bg-image" data-square-content="South County"><div class='inner'><h2>South County</h2></div></a>
+                        <a href="stonington-hub.php" class="stonington-splash square button bg-image" data-square-content="Stonington"><div class='inner'><h2>Stonington</h2></div></a>
                     </div>
                 </div>
             </div>

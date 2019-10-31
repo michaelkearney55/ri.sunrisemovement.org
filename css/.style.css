@@ -353,6 +353,10 @@ Setting up div structure
 .wide {
   width: 100%;
 }
+.spaced {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
 /* Set up preset flex layouts */
 .flex-two-column {
   display: flex;

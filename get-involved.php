@@ -16,8 +16,7 @@
         <link rel="stylesheet" type="text/css" href="css/.get-involved.css">
         
         <!-- Styling and JS for Action Network signup. -->
-        <link rel="stylesheet" type="text/css" href="https://actionnetwork.org/css/style-embed-v3.css">
-        <script src='https://actionnetwork.org/widgets/v3/form/join-sunrise-ri?format=js&source=widget'></script>
+        <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v3/form/join-sunrise-ris-mailing-list?format=js&source=widget'></script>
         
     </head>
 
@@ -29,14 +28,14 @@
                     <div class='layout wide'>
                         <div class="flex-two-column">
                             <div class="text-align-left">
-                                <h1 class="text-align-left" style="text-align: left;">Get involved</h1>
+                                <h2 class="text-align-left">Get involved</h2>
                                 <p>We're going to have to come together if we're going to get a Green New Deal and defeat climate change. Get involved by signing up for opportunities for action, joining a <a href='hubs.php'>hub</a> near you, or donating to support our cause!</p>
-                                <div class="center-contents text-align-center">
-                                    <a href='https://secure.actblue.com/donate/sunrise-ri?refcode=ri-website-header' class='button yellow' data>Donate Now</a>
+                                <div class="center-contents text-align-center spaced">
+                                    <a href='https://secure.actblue.com/donate/sunrise-ri?refcode=ri-website-get-involved&recurring=true&amount=25' class='button yellow' data>Donate Now</a>
                                 </div>
                             </div>
                             <div class="signup-wrapper">
-                                <div id='can-form-area-join-sunrise-ri' style='width: 100%'><!-- this div is the target div for the Action Network sign up --></div>
+                                <div id='can-form-area-join-sunrise-ris-mailing-list' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
                             </div>
                         </div>
                     </div>

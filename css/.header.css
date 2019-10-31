@@ -28,6 +28,44 @@ header {
 .topnav {
   display: flex;
   transition: transform 0.4s cubic-bezier(0.77, 0.2, 0.05, 1);
+  color: #FFFFFF;
+  background-color: #33342E;
+}
+.button.topnav,
+.topnav h1,
+.topnav h2,
+.topnav h4,
+.topnav h6 {
+  color: #FFDE16;
+}
+.topnav a:not(.button),
+.topnav a:not(.button):link,
+.topnav a:not(.button):visited {
+  color: #FFDE16;
+}
+.topnav a:not(.button):hover,
+.topnav a:not(.button):active {
+  color: #FD9014;
+}
+.topnav * {
+  color: #FFFFFF;
+  background-color: #33342E;
+}
+.button.topnav *,
+.topnav * h1,
+.topnav * h2,
+.topnav * h4,
+.topnav * h6 {
+  color: #FFDE16;
+}
+.topnav * a:not(.button),
+.topnav * a:not(.button):link,
+.topnav * a:not(.button):visited {
+  color: #FFDE16;
+}
+.topnav * a:not(.button):hover,
+.topnav * a:not(.button):active {
+  color: #FD9014;
 }
 .topnav .button {
   padding: 10px;
@@ -62,6 +100,12 @@ header {
   }
 }
 @media screen and (min-width: 901px) {
+  .topnav .dropdown > a:after {
+    content: " \00BB";
+    display: inline-block;
+    transform: rotate(90deg);
+    margin-left: 5px;
+  }
   .topnav .dropdown:hover .dropdown-content {
     display: flex;
   }

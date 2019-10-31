@@ -48,6 +48,11 @@ header {
     display: flex;
     transition: transform @transform-ttime @transform-tfunc;
     
+    .gray();
+    * {
+        .gray();
+    }
+    
     .button {
         padding: 10px;
     }
@@ -73,6 +78,13 @@ header {
     }
     
     @media @notmobile {
+        .dropdown>a:after {
+            content: " \00BB";
+            display: inline-block;
+            transform: rotate(90deg);
+            margin-left: 5px;
+        }
+        
         .dropdown:hover .dropdown-content {
             display: flex;
         }

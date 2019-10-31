@@ -22,9 +22,14 @@
         <section class='background bg-image'>
             <div class='container'>
                 <div class='layout wide'>
+                    <h2>Sunrise Brown &#38; RISD</h2>
+                    <p>Sunrise Brown &#38; RISD </p>
+                    <h3>Come join us!</h3>
+                    <p>Email: <a href="mailto:sunrisestonington@gmail.com">sunrisestonington@gmail.com</a></p>
+                    <p>Instagram: <a href="https://www.instagram.com/sunrisestonington/">@sunrisestonington</a></p>
                 </div>
             </div>
-        </section>s
+        </section>
         </main>
         
         
