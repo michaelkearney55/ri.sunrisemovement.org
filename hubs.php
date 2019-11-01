@@ -23,7 +23,7 @@
                 <div class='layout medium'>
                     <div>
                         <h2>Explore Hubs in Rhode Island</h2>
-                        <p>Don't see a hub near you? <a href="get-involved.php/#contact">Reach out to us</a> and fill out an <a href='https://actionnetwork.org/forms/sunrise-hub-interest'>interest form</a>. We'll help you get a hub up and running in your area!</p>
+                        <p>Don't see a hub near you? <a href="get-involved.php#contact">Reach out to us</a> and fill out an <a href='https://actionnetwork.org/forms/sunrise-hub-interest'>interest form</a>. We'll help you get a hub up and running in your area!</p>
                     </div>
                 </div>
                 <div class='layout wide'>
