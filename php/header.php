@@ -2,7 +2,7 @@
     <div class='background gray'>
         <div class='container'>
             <div class='masthead wide'>
-                <a href='index.php' class='button'>
+                <a href='/' class='button'>
                     <img class='logo' src="assets/logos/logo_with_text.png" />
                 </a>
                 <nav id='my-topnav' class='topnav gray'>
