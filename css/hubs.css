@@ -1,28 +1,13 @@
 .hub-button-wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: space-around;
 }
 .hub-button-wrapper .button {
-  flex-grow: 1;
-  flex-shrink: 1;
+  flex: 1 1 auto;
   padding: 0;
   margin: 20px;
-  width: calc(50% - 40px);
-}
-@media screen and (min-width: 641px) and (max-width: 768px) {
-  .hub-button-wrapper .button {
-    width: 100%;
-  }
-}
-@media screen and (min-width: 601px) and (max-width: 640px) {
-  .hub-button-wrapper .button {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 600px) {
-  .hub-button-wrapper .button {
-    width: 100%;
-  }
+  max-width: 400px;
+  min-width: 350px;
 }

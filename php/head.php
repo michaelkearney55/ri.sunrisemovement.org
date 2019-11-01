@@ -23,10 +23,10 @@
 <!--<script src="https://kit.fontawesome.com/dd7580ef18.js" crossorigin="anonymous"></script>-->
 
 <!-- Include stylesheets -->
-<link rel="stylesheet" type="text/css" href="css/.style.css">
-<link rel="stylesheet" type="text/css" href="css/.header.css">
-<link rel="stylesheet" type="text/css" href="css/.footer.css">
-<link rel="stylesheet" type="text/css" href="css/.bg-images.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/header.css">
+<link rel="stylesheet" type="text/css" href="css/footer.css">
+<link rel="stylesheet" type="text/css" href="css/bg-images.css">
 
 <!-- Include asyncronous scripts -->
 <script src="https://kit.fontawesome.com/dd7580ef18.js" crossorigin="anonymous" defer></script>

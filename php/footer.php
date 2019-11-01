@@ -8,7 +8,7 @@
                 <div class="stay-connected">
                     <h6>Stay Connected</h6>
                     <p>We won't win this fight alone. Sign up to learn how you can join the movement.</p>
-                    <!-- INCLUDE ACTION NETWORK SIGNUP HERE -->
+                    <a class="button magenta center-self" href="get-involved.php">Join us!</a>
                 </div>
                 <div class="our-mission">
                     <h6>Our Mission</h6>
@@ -17,16 +17,17 @@
                 <div class="sitemap">
                     <h6>Learn More</h6>
                     <a href='index.php'>Home</a>
-                    <a href='about.php'>About</a>
-                    <a href='green-new-deal.php'>Green New Deal</a>
+                    <!--<a href='about.php'>About</a>
+                    <a href='green-new-deal.php'>Green New Deal</a>-->
                     <a href='get-involved.php'>Get Involved</a>
                 </div>
                 <div class="sitemap">
-                    <h6>Find a <a href='hubs.php'>Hub</a></h6>
+                    <h6><a href='hubs.php'>Find a Hub</a></h6>
                     <a href='barrington-hub.php'>Barrington</a>
                     <a href='brown-risd-hub.php'>Brown &#38; RISD</a>
                     <a href='providence-hub.php'>Providence</a>
                     <a href='south-county-hub.php'>South County</a>
+                    <a href='stonington-hub.php'>Stonington</a>
                 </div>
             </div>
             <div class="layout wide text-align-center">

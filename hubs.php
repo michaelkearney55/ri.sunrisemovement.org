@@ -13,7 +13,7 @@
         <meta property="og:description" content="Sunrise Rhode Island is a movement of young people fighting to stop the climate crisis and create millions of good jobs in the process.">
         
         <!-- Link local stylesheet -->
-        <link rel="stylesheet" type="text/css" href="css/.hubs.css">
+        <link rel="stylesheet" type="text/css" href="css/hubs.css">
     </head>
 
     <body>

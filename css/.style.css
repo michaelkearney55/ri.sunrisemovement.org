@@ -108,7 +108,6 @@ Setting up color themes
 .button.translucent {
   background-color: rgba(34, 34, 34, 0);
   border: 2px solid #FFFFFF;
-  border-radius: 5%;
 }
 .button.translucent:hover,
 .button.translucent:active {
@@ -138,8 +137,10 @@ Setting up color themes
 .bg-image h1,
 .bg-image h2,
 .bg-image h4,
-.bg-image h6,
-.bg-image .button {
+.bg-image h6 {
+  color: #FFDE16;
+}
+.bg-image.button {
   color: #FFDE16;
 }
 .bg-image a:not(.button),

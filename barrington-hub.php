@@ -13,7 +13,6 @@
         <meta property="og:description" content="Sunrise Rhode Island is a movement of young people fighting to stop the climate crisis and create millions of good jobs in the process.">
         
         <!-- Link local stylesheet -->
-        <link rel="stylesheet" type="text/css" href="css/.barrington-hub.css">
     </head>
 
     <body>
@@ -21,8 +20,10 @@
         <main>
         <section class='background light'>
             <div class='container'>
-                <div class='layout wide'>
-                    <div class="center-contents"><a class="button magenta spaced">Join us!</a></div>
+                <div class='layout narrow'>
+                    <h2>Sunrise Barrington</h2>
+                    <p>Sunrise Barrington is a brand new hub. We're ready to get started organizing in Barrington to get a Green New Deal and climate justice for all. Sign up to join Sunrise RI, then send us an email at <a href="mailto:sunrisebarrington@gmail.com">sunrisebarrington@gmail.com</a> to see how you can get involved!</p>
+                    <div class="center-contents"><a class="button magenta spaced" href="get-involved.php">Join us!</a></div>
                 </div>
             </div>
         </section>

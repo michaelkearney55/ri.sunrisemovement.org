@@ -23,7 +23,7 @@
                 <div class='layout narrow'>
                     <h2>South County Sunrise</h2>
                     <p>South County Sunrise was created in the summer of 2019, and has been growing into a strong hub and community since. As a county with an untapped population of coastal residents and thousands of students, southern Rhode Islanders are now given a voice through Sunrise. We are using those voices to commit to climate justice and end the influence of fossil fuel billionaires on our government and future.</p>
-                    <div class="center-contents"><a class="button magenta spaced">Join us!</a></div>
+                    <div class="center-contents"><a class="button magenta spaced" href="get-involved.php">Join us!</a></div>
                     <p><a href="https://actionnetwork.org/groups/southcountysunrise">Action Network</a></p>
                     <p>Email: <a href="mailto:scountysunrise@gmail.com">scountysunrise@gmail.com</a></p>
                     <p>Twitter: <a href="https://twitter.com/scountysunrise">@scountysunrise</a></p>

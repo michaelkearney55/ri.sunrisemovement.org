@@ -13,7 +13,7 @@
         <meta property="og:description" content="Sunrise Rhode Island is a movement of young people fighting to stop the climate crisis and create millions of good jobs in the process.">
         
         <!-- Link local stylesheet -->
-        <link rel="stylesheet" type="text/css" href="css/.get-involved.css">
+        <link rel="stylesheet" type="text/css" href="css/get-involved.css">
         
         <!-- Styling and JS for Action Network signup. -->
         <link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v3/form/join-sunrise-ris-mailing-list?format=js&source=widget'></script>
@@ -28,8 +28,11 @@
                     <div class='layout wide'>
                         <div class="flex-two-column">
                             <div class="text-align-left">
-                                <h2 class="text-align-left">Get involved</h2>
-                                <p>We're going to have to come together if we're going to get a Green New Deal and defeat climate change. Get involved by signing up for opportunities for action, joining a <a href='hubs.php'>hub</a> near you, or donating to support our cause!</p>
+                                <h4>Join the fight for climate justice and a Green New Deal in Rhode Island!</h4>
+                                <p>We accomplished some amazing things in 2019 – like organizing for the <strong>historic climate strikes</strong> all over Rhode Island, hosting the <strong>Northeast Regional Sunrise Summit</strong>, and getting Representative Cicilline to sign on to the <strong>Green New Deal</strong>. This only happened because Rhode Islanders gave their time and money, signed petitions, recruited friends and family, and showed up at actions.</p>
+                                <p>We need to <strong>keep the momentum going</strong> as we head into the 2020 elections in order to win a Green New Deal for our state, create good jobs for all in Rhode Island, and defeat the climate crisis.</p>
+                                <p>Sign up now to join the movement, then <a href="hubs.php">find a Sunrise hub</a> near you!</p>
+                                <h5 class="text-align-center spaced">Together, we can turn the tide.</h5>
                                 <div class="center-contents text-align-center spaced">
                                     <a href='https://secure.actblue.com/donate/sunrise-ri?refcode=ri-website-get-involved&recurring=true&amount=25' class='button yellow' data>Donate Now</a>
                                 </div>

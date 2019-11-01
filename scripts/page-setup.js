@@ -14,9 +14,5 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     };
     
-    /* Load Squares Content */
-    
-    var squares = document.getElementsByClassName('square'),
-        j = 0;
     
 });

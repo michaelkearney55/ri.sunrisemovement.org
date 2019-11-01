@@ -13,7 +13,6 @@
         <meta property="og:description" content="Sunrise Rhode Island is a movement of young people fighting to stop the climate crisis and create millions of good jobs in the process.">
         
         <!-- Link local stylesheet -->
-        <link rel="stylesheet" type="text/css" href="css/.providence-hub.css">
     </head>
 
     <body>
@@ -27,7 +26,7 @@
                     <p>At the same time, Providence – and Rhode Island more generally – has failed to take the bold steps necessary to fight the climate crisis by transitioning our city to renewable energy. Most of our elected officials have refused to support a Green New Deal or to sign the No Fossil Fuel Money Pledge.</p>
                     <h3>We deserve better.</h3>
                     <p>Sunrise Providence is fighting back against environmental racism and the climate crisis by building a youth-led movement to win a Green New Deal that tackles the racial and economic hierarchies embedded within our city. We demand a low-carbon, livable future and a just transition that will prioritize the wellbeing of frontline communities and eliminate the deep, structural inequalities within Providence. We are fighting to make sure our city works for all of us, not the fossil fuel billionaires.</p>
-                    <div class="center-contents"><a class="button magenta spaced">Join us!</a></div>
+                    <div class="center-contents"><a class="button magenta spaced" href="get-involved.php">Join us!</a></div>
                     <h4>Don’t have much experience with political organizing?</h4>
                     <p>No problem! Sunrise Providence hosts regular orientation sessions where new members can learn about our theory of change, the Green New Deal, and how you can join our movement! We can set you up with one of our many ongoing projects where you can meet and learn from fellow Sunrisers. We can also connect you with experienced Sunrise members who will help you learn how to become an effective community organizer.</p>
                     <h4>Want to chat one-on-one with a member of Sunrise Providence?</h4>

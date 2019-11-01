@@ -10,7 +10,7 @@ do
 	TOTAL=$((TOTAL + 1))
 	FROM=$file
 	TO=${file/.*/.css}
-	TO=${TO/\///.}
+	#TO=${TO/\///.}
 	if $(lessc $FROM $TO); then
 		echo "SUCCESS: $FROM   -->   $TO succeeded"
 		COUNT=$((COUNT + 1))

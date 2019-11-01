@@ -25,7 +25,7 @@
                 <div class='layout narrow'>
                     <h2>Sunrise Stonington</h2>
                     <p>Sunrise Stonington is a new hub based out of Westerly, RI, that mixes both Connecticut and Rhode Island efforts! This hub originated from a teen’s group focused on pollution, but after members attended the Sunrise Northeast Regional Summit, they decided to transition it into a Sunrise hub and join our movement. If you live on the RI/CT border, definitely check out Sunrise Stonington! As of now, they meet weekly at the Westerly Library. </p>
-                    <div class="center-contents"><a class="button magenta spaced">Join us!</a></div>
+                    <div class="center-contents"><a class="button magenta spaced" href="get-involved.php">Join us!</a></div>
                     <p>Email: <a href="mailto:sunrisestonington@gmail.com">sunrisestonington@gmail.com</a></p>
                     <p>Instagram: <a href="https://www.instagram.com/sunrisestonington/">@sunrisestonington</a></p>
                 </div>

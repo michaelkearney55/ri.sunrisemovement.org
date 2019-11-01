@@ -12,7 +12,7 @@ footer .layout:last-child {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 .footer-layout div {
   display: flex;
