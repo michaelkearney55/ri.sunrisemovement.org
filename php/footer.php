@@ -16,7 +16,7 @@
                 </div>
                 <div class="sitemap">
                     <h6>Learn More</h6>
-                    <a href='index.php'>Home</a>
+                    <a href='/'>Home</a>
                     <!--<a href='about.php'>About</a>
                     <a href='green-new-deal.php'>Green New Deal</a>-->
                     <a href='get-involved.php'>Get Involved</a>
