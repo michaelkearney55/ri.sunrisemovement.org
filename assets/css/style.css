@@ -1,0 +1,729 @@
+* {
+  margin: 0;
+  border: none;
+  font-size: inherit;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: inherit;
+}
+body {
+  background-color: #222222;
+}
+/*
+Setting up text modifiers
+*/
+.text-serif {
+  font-family: 'Source Serif Pro', serif;
+}
+.text-italic {
+  font-style: italic;
+}
+.text-align-left {
+  text-align: left;
+}
+.text-align-center {
+  text-align: center;
+}
+.text-align-right {
+  text-align: right;
+}
+.text-justify {
+  text-align: justify;
+}
+.text-nowrap {
+  white-space: nowrap;
+}
+.text-bold {
+  font-weight: 700;
+}
+.center-self {
+  margin-left: auto;
+  margin-right: auto;
+}
+.block {
+  display: block;
+}
+/*
+Setting up color themes
+*/
+.light {
+  background-color: #FBFAEE;
+  color: #222222;
+}
+.light h7 {
+  color: #33342E;
+}
+.light a:not(.button),
+.light a:not(.button):link,
+.light a:not(.button):visited {
+  color: #8F0D56;
+}
+.light a:not(.button):hover,
+.light a:not(.button):active {
+  color: #FD9014;
+}
+.yellow {
+  background-color: #FFDE16;
+  color: #222222;
+}
+.yellow a:not(.button),
+.yellow a:not(.button):link,
+.yellow a:not(.button):visited {
+  color: #8F0D56;
+}
+.yellow a:not(.button):hover,
+.yellow a:not(.button):active {
+  color: #FD9014;
+}
+.magenta {
+  background-color: #8F0D56;
+  color: #FFFFFF;
+}
+.magenta a:not(.button),
+.magenta a:not(.button):link,
+.magenta a:not(.button):visited {
+  color: #FFDE16;
+}
+.magenta a:not(.button):hover,
+.magenta a:not(.button):active {
+  color: #FD9014;
+}
+.gray {
+  color: #E3EDDF;
+  background-color: #33342E;
+}
+.button.gray,
+.gray h1,
+.gray h2,
+.gray h4,
+.gray h6 {
+  color: #FFDE16;
+}
+.gray a:not(.button),
+.gray a:not(.button):link,
+.gray a:not(.button):visited {
+  color: #FFDE16;
+}
+.gray a:not(.button):hover,
+.gray a:not(.button):active {
+  color: #FD9014;
+}
+.translucent {
+  color: #E3EDDF;
+  background-color: transparent;
+}
+.button.translucent {
+  background-color: rgba(34, 34, 34, 0);
+  border: 2px solid #E3EDDF;
+}
+.button.translucent:hover,
+.button.translucent:active {
+  background-color: #222222;
+}
+.translucent h1,
+.translucent h2,
+.translucent h4,
+.translucent h6 {
+  color: #FFDE16;
+}
+.translucent a:not(.button),
+.translucent a:not(.button):link,
+.translucent a:not(.button):visited {
+  color: #FFDE16;
+}
+.translucent a:not(.button):hover,
+.translucent a:not(.button):active {
+  color: #FD9014;
+}
+.bg-image {
+  color: #E3EDDF;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-image h1,
+.bg-image h2,
+.bg-image h4,
+.bg-image h6 {
+  color: #FFDE16;
+}
+.bg-image.button {
+  color: #FFDE16;
+}
+.bg-image a:not(.button),
+.bg-image a:not(.button):link,
+.bg-image a:not(.button):visited {
+  color: #FFDE16;
+}
+.bg-image a:not(.button):hover,
+.bg-image a:not(.button):active {
+  color: #FD9014;
+}
+.vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.square {
+  /* A .square element must have an inner "div" element to work correctly! */
+  position: relative;
+}
+.square:after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
+.square > * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.img-wrapper {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+hr {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 8px auto;
+  height: 0;
+  width: 100%;
+  max-height: 0;
+  font-size: 1px;
+  line-height: 0;
+  clear: both;
+  border: none;
+  border-top: 1px solid #33342E;
+  border-bottom: 1px solid #33342E;
+}
+/*
+Setting up div structure
+*/
+/* Background Divs are the outermost element and stretch background media to screen edge */
+.background {
+  width: 100%;
+}
+/* Container Divs maintain a consistent, width-appropriate margin */
+.container {
+  max-width: 1370px;
+  margin: auto;
+  padding-left: 115px;
+  padding-right: 115px;
+}
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+  .container {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 640px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+/* Narrow, medium, and wide Layout Divs vary the width of media, making the site visually engaging */
+.layout {
+  margin: auto;
+  padding: 20px 0;
+  text-align: center;
+}
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+  .layout {
+    padding: 20px 0;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .layout {
+    padding: 15px 0;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .layout {
+    padding: 15px 0;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 640px) {
+  .layout {
+    padding: 10px 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .layout {
+    padding: 10px 0;
+  }
+}
+.layout:first-child {
+  padding-top: 80px;
+}
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+  .layout:first-child {
+    padding-top: 60px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .layout:first-child {
+    padding-top: 50px;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .layout:first-child {
+    padding-top: 40px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 640px) {
+  .layout:first-child {
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .layout:first-child {
+    padding-top: 30px;
+  }
+}
+.layout:last-child {
+  padding-bottom: 80px;
+}
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+  .layout:last-child {
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .layout:last-child {
+    padding-bottom: 50px;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .layout:last-child {
+    padding-bottom: 40px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 640px) {
+  .layout:last-child {
+    padding-bottom: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .layout:last-child {
+    padding-bottom: 30px;
+  }
+}
+.layout.narrow {
+  width: 50%;
+}
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .layout.narrow {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .layout.narrow {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 640px) {
+  .layout.narrow {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .layout.narrow {
+    width: 100%;
+  }
+}
+.layout.medium {
+  margin: auto;
+  width: 75%;
+}
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .layout.medium {
+    width: 83.3%;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .layout.medium {
+    width: 83.3%;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 640px) {
+  .layout.medium {
+    width: 83.3%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .layout.medium {
+    width: 100%;
+  }
+}
+.layout.wide {
+  width: 100%;
+}
+.layout.pair {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 900px) {
+  .layout.pair {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 901px) {
+  .layout.pair > * {
+    max-width: 47.5%;
+  }
+}
+@media screen and (min-width: 901px) {
+  .layout.pair.left > *:first-child {
+    max-width: 62%;
+  }
+}
+@media screen and (min-width: 901px) {
+  .layout.pair.left > *:last-child {
+    max-width: 33%;
+  }
+}
+@media screen and (min-width: 901px) {
+  .layout.pair.right > *:first-child {
+    max-width: 33%;
+  }
+}
+@media screen and (min-width: 901px) {
+  .layout.pair.right > *:last-child {
+    max-width: 62%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .layout.pair .first-on-mobile {
+    order: -1;
+  }
+}
+.spaced {
+  /* Fluid margins:
+        max: 80px @ huge/1600px;
+        min: 30px @ tiny/600px;
+    */
+  margin-top: calc(30px + (80 - 30) * (100vw - 600px) / (1600 - 600));
+  margin-bottom: calc(30px + (80 - 30) * (100vw - 600px) / (1600 - 600));
+}
+@media screen and (min-width: 1601px) {
+  .spaced {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .spaced {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+/* Set up preset flex layouts */
+.flex-two-column {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.flex-two-column > * {
+  width: 47%;
+}
+@media screen and (max-width: 900px) {
+  .flex-two-column > * {
+    width: 100%;
+  }
+}
+/*
+Setting up buttons and links
+*/
+a {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+}
+a:not(.button) {
+  transition: color 0.2s ease;
+}
+div > a:not(.button) {
+  font-size: calc(16px + (20 - 16) * (100vw - 600px) / (1600 - 600));
+}
+@media screen and (min-width: 1601px) {
+  div > a:not(.button) {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  div > a:not(.button) {
+    font-size: 16px;
+  }
+}
+.fade-on-hover {
+  transition: opacity 0.2s ease, background-color 0.2s ease;
+}
+.fade-on-hover:hover,
+.fade-on-hover:active {
+  opacity: 0.6;
+}
+.button {
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-align: center;
+  transition: opacity 0.2s ease, background-color 0.2s ease;
+}
+.button:hover,
+.button:active {
+  opacity: 0.6;
+}
+.button * {
+  padding: 0;
+  margin: 0;
+}
+button:focus {
+  outline: none;
+}
+.button.donate {
+  background-color: #FFDE16;
+  color: #222222;
+}
+.button.donate a:not(.button),
+.button.donate a:not(.button):link,
+.button.donate a:not(.button):visited {
+  color: #8F0D56;
+}
+.button.donate a:not(.button):hover,
+.button.donate a:not(.button):active {
+  color: #FD9014;
+}
+/*
+Setting up categories of text
+*/
+/* Normal Text */
+p {
+  /* Fluid Typography:
+        max: 20px @ huge/1600px;
+        min: 16px @ tiny/600px;
+    */
+  font-size: calc(16px + (20 - 16) * (100vw - 600px) / (1600 - 600));
+  text-align: left;
+  font-family: 'Source Serif Pro', serif;
+  margin: 1em auto;
+  line-height: 150%;
+}
+@media screen and (min-width: 1601px) {
+  p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 16px;
+  }
+}
+p * {
+  text-align: left;
+  font-family: 'Source Serif Pro', serif;
+}
+p:first-child {
+  margin-top: 0;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+/* All heading are bold */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  /*line-height: 150%;*/
+  margin: 1em auto;
+}
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+  margin-top: 0;
+}
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child {
+  margin-bottom: 0;
+}
+/* h1 is Extra-big Title */
+h1 {
+  /* Fluid Typography:
+        max: 80px @ huge/1600px;
+        min: 48px @ tiny/600px;
+    */
+  font-size: calc(48px + (80 - 48) * (100vw - 600px) / (1600 - 600));
+  text-transform: uppercase;
+  text-align: center;
+}
+@media screen and (min-width: 1601px) {
+  h1 {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+/* h2 is Big Title */
+h2 {
+  /* Fluid Typography:
+        max: 56px @ huge/1600px;
+        min: 36px @ tiny/600px;
+    */
+  font-size: calc(36px + (56 - 36) * (100vw - 600px) / (1600 - 600));
+  text-align: center;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 1601px) {
+  h2 {
+    font-size: 56px;
+  }
+}
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 36px;
+  }
+}
+/* h3 is Big Subtitle */
+h3 {
+  /* Fluid Typography:
+        max: 36px @ huge/1600px;
+        min: 24px @ tiny/600px;
+    */
+  font-size: calc(24px + (36 - 24) * (100vw - 600px) / (1600 - 600));
+  text-align: center;
+  font-family: 'Source Serif Pro', serif;
+}
+@media screen and (min-width: 1601px) {
+  h3 {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 600px) {
+  h3 {
+    font-size: 24px;
+  }
+}
+/* h4 is Section Title */
+h4 {
+  /* Fluid Typography:
+        max: 36px @ huge/1600px;
+        min: 28px @ tiny/600px;
+    */
+  font-size: calc(28px + (36 - 28) * (100vw - 600px) / (1600 - 600));
+  text-align: left;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 1601px) {
+  h4 {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 600px) {
+  h4 {
+    font-size: 28px;
+  }
+}
+/* h5 is Section Subtitle */
+h5 {
+  /* Fluid Typography:
+        max: 28px @ huge/1600px;
+        min: 22px @ tiny/600px;
+    */
+  font-size: calc(22px + (28 - 22) * (100vw - 600px) / (1600 - 600));
+  text-align: left;
+  font-family: 'Source Serif Pro', serif;
+}
+@media screen and (min-width: 1601px) {
+  h5 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 600px) {
+  h5 {
+    font-size: 22px;
+  }
+}
+/* h6 is Small Title */
+h6 {
+  /* Fluid Typography:
+        max: 28px @ huge/1600px;
+        min: 22px @ tiny/600px;
+    */
+  font-size: calc(22px + (28 - 22) * (100vw - 600px) / (1600 - 600));
+  text-align: left;
+}
+@media screen and (min-width: 1601px) {
+  h6 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 600px) {
+  h6 {
+    font-size: 22px;
+  }
+}
+/* h7 is image caption */
+h7 {
+  /* Fluid Typography:
+        max: 18px @ huge/1600px;
+        min: 14px @ tiny/600px;
+    */
+  font-size: calc(14px + (18 - 14) * (100vw - 600px) / (1600 - 600));
+  font-style: italic;
+  text-align: left;
+}
+@media screen and (min-width: 1601px) {
+  h7 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 600px) {
+  h7 {
+    font-size: 14px;
+  }
+}

@@ -1,1 +1,0 @@
-prefix="og: http://ogp.me/ns#"

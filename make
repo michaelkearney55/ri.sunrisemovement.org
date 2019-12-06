@@ -5,12 +5,11 @@ echo -e '\n\nCompiling all LESS files in /css to hidden CSS files...\n\n'
 COUNT=0
 TOTAL=0
 
-for file in css/*.less
+for file in assets/less/*.less
 do
 	TOTAL=$((TOTAL + 1))
 	FROM=$file
-	TO=${file/.*/.css}
-	#TO=${TO/\///.}
+	TO=${file//less/css}
 	if $(lessc $FROM $TO); then
 		echo "SUCCESS: $FROM   -->   $TO succeeded"
 		COUNT=$((COUNT + 1))

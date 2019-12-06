@@ -1,0 +1,197 @@
+/*@hamburger-true-hypotenuse: calc(sqrt(pow(@hamburger-height - @hamburger-span-height, 2) + pow(@hamburger-width - @hamburger-span-height, 2)));*/
+/* header layout */
+body {
+  margin-top: 75px;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+.masthead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.masthead > * {
+  height: 45px;
+  padding: 0;
+}
+.masthead .logo {
+  height: 100%;
+}
+/* dropdown and responsive navigation */
+.topnav {
+  display: flex;
+  transition: transform 0.4s cubic-bezier(0.77, 0.2, 0.05, 1);
+  color: #E3EDDF;
+  background-color: #33342E;
+}
+.button.topnav,
+.topnav h1,
+.topnav h2,
+.topnav h4,
+.topnav h6 {
+  color: #FFDE16;
+}
+.topnav a:not(.button),
+.topnav a:not(.button):link,
+.topnav a:not(.button):visited {
+  color: #FFDE16;
+}
+.topnav a:not(.button):hover,
+.topnav a:not(.button):active {
+  color: #FD9014;
+}
+.topnav * {
+  color: #E3EDDF;
+  background-color: #33342E;
+}
+.button.topnav *,
+.topnav * h1,
+.topnav * h2,
+.topnav * h4,
+.topnav * h6 {
+  color: #FFDE16;
+}
+.topnav * a:not(.button),
+.topnav * a:not(.button):link,
+.topnav * a:not(.button):visited {
+  color: #FFDE16;
+}
+.topnav * a:not(.button):hover,
+.topnav * a:not(.button):active {
+  color: #FD9014;
+}
+.topnav .button {
+  padding: 10px;
+}
+.topnav .donate {
+  margin-left: 10px;
+}
+.topnav .dropdown-content {
+  display: none;
+  flex-direction: column;
+  align-items: stretch;
+  position: absolute;
+}
+.topnav .dropdown-content a {
+  text-align: left;
+}
+@media screen and (max-width: 900px) {
+  .topnav .dropdown-content {
+    display: flex;
+    position: static;
+  }
+}
+@media screen and (min-width: 901px) {
+  .topnav .dropdown > a:after {
+    content: " \00BB";
+    display: inline-block;
+    transform: rotate(90deg);
+    margin-left: 5px;
+  }
+  .topnav .dropdown:hover .dropdown-content {
+    display: flex;
+  }
+  .topnav > .button:first-child {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  .topnav {
+    position: fixed;
+    height: calc(100vh - 75px);
+    width: 100vw;
+    top: 75px;
+    right: 100vw;
+    bottom: 0;
+    overflow-y: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .topnav.transformed {
+    transform: translateX(100%);
+  }
+  .topnav .dropdown-content {
+    margin-left: 30px;
+  }
+  .topnav .donate {
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .topnav {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .topnav {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 640px) {
+  .topnav {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.hamburger-wrapper {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .hamburger-wrapper {
+    display: block;
+  }
+}
+.hamburger {
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  box-sizing: content-box;
+  padding: calc(45px * 0.15) 0 0 0;
+  margin: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hamburger span {
+  display: block;
+  width: 25px;
+  height: 5px;
+  background-color: #FFDE16;
+  border-radius: 2.5px;
+  transition-property: transform, width;
+  transition-duration: 0.4s;
+  transition-timing-function: cubic-bezier(0.77, 0.2, 0.05, 1);
+  transform-origin: 2.5px center;
+}
+.hamburger span.middle {
+  transform-origin: center center;
+}
+.hamburger.transformed span.top {
+  transform: rotate(45deg);
+  width: calc(28.28427125px + 5px);
+}
+.hamburger.transformed span.middle {
+  transform: scale(0, 0);
+}
+.hamburger.transformed span.bottom {
+  transform: rotate(-45deg);
+  width: calc(28.28427125px + 5px);
+}
