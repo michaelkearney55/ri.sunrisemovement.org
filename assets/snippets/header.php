@@ -6,7 +6,7 @@
                     <img class='logo' src="/assets/images/logos/logo_with_text.png" />
                 </a>
                 <nav id='my-topnav' class='topnav gray'>
-                    <a href='/logistics-a' class='button gray'>Strike</a>
+                    <a href='http://smvmt.org/pvd-strike-logistics' class='button gray'>Strike</a>
                     <a href='/about' class='button gray'>About</a>
                     <!--<a href='green-new-deal.php' class='button gray'>Green New Deal</a>
                     <a href='scorecard.php'>Scorecard</a>-->

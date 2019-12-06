@@ -498,7 +498,6 @@ div > a:not(.button) {
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
-  white-space: nowrap;
   text-align: center;
   transition: opacity 0.2s ease, background-color 0.2s ease;
 }

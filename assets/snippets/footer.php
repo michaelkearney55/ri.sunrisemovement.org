@@ -17,15 +17,12 @@
                 <div class="sitemap">
                     <h6>Learn More</h6>
                     <a href='/'>Home</a>
-<<<<<<< HEAD:assets/snippets/footer.php
                     <!--<a href='/about'>About</a>
                     <a href='/green-new-deal'>Green New Deal</a>-->
                     <a href='/get-involved'>Get Involved</a>
-=======
                     <!--<a href='about.php'>About</a>
                     <a href='green-new-deal.php'>Green New Deal</a>-->
                     <a href='get-involved.php'>Get Involved</a>
->>>>>>> 9c50eb1e0ae260c8c3b90bc276efcb347c8d6c0a:php/footer.php
                 </div>
                 <div class="sitemap">
                     <h6><a href='/hubs'>Find a Hub</a></h6>
