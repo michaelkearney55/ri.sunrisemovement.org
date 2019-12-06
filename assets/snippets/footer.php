@@ -19,10 +19,10 @@
                     <a href='/'>Home</a>
                     <!--<a href='/about'>About</a>
                     <a href='/green-new-deal'>Green New Deal</a>-->
+                    <a href='/about'>About</a>
                     <a href='/get-involved'>Get Involved</a>
-                    <!--<a href='about.php'>About</a>
-                    <a href='green-new-deal.php'>Green New Deal</a>-->
-                    <a href='get-involved.php'>Get Involved</a>
+                    <!--<a href='green-new-deal.php'>Green New Deal</a>
+                    <a href='get-involved.php'>Get Involved</a>-->
                 </div>
                 <div class="sitemap">
                     <h6><a href='/hubs'>Find a Hub</a></h6>
