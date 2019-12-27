@@ -129,7 +129,7 @@
                     </div>
                     <div class='layout wide'>
                         <div class='center-contents vid-wrapper'>
-                            <iframe src="https://www.youtube.com/embed/d9uTH0iprVQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="450" height="253" src="https://www.youtube.com/embed/d9uTH0iprVQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class='layout wide'>
