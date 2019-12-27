@@ -36,11 +36,11 @@
                 </div>
                 <div class='layout wide'>
                     <div class="hub-button-wrapper">
-                        <a href="/hubs/barrington/" class="barrington-button-splash square button bg-image" data-square-content="Barrington"><div class='inner'><h2>Barrington</h2></div></a>
-                        <a href="/hubs/brown-risd" class="brown-risd-button-splash square button bg-image" data-square-content="Brown &#38; RISD"><div class='inner'><h2>Brown &#38; RISD</h2></div></a>
-                        <a href="/hubs/providence" class="providence-button-splash square button bg-image" data-square-content="Providence"><div class='inner'><h2>Providence</h2></div></a>
-                        <a href="/hubs/south-county" class="south-county-button-splash square button bg-image" data-square-content="South County"><div class='inner'><h2>South County</h2></div></a>
-                        <a href="/hubs/stonington" class="stonington-button-splash square button bg-image" data-square-content="Stonington"><div class='inner'><h2>Stonington</h2></div></a>
+                        <a href="/hubs/barrington/" style="background-image: url('/assets/images/photos/barrington-gs.jpg');" class="barrington-button-splash square button bg-image" data-square-content="Barrington"><div class='inner'><h2>Barrington</h2></div></a>
+                        <a href="/hubs/brown-risd" style="background-image: url('/assets/images/photos/brown-risd-gs.jpg');" class="brown-risd-button-splash square button bg-image" data-square-content="Brown &#38; RISD"><div class='inner'><h2>Brown &#38; RISD</h2></div></a>
+                        <a href="/hubs/providence" style="background-image: url('/assets/images/photos/providence-gs.jpg');" class="providence-button-splash square button bg-image" data-square-content="Providence"><div class='inner'><h2>Providence</h2></div></a>
+                        <a href="/hubs/south-county" style="background-image: url('/assets/images/photos/scounty-gs.jpg');" class="south-county-button-splash square button bg-image" data-square-content="South County"><div class='inner'><h2>South County</h2></div></a>
+                        <a href="/hubs/stonington" style="background-image: url('/assets/images/photos/stonington-gs.jpg');" class="stonington-button-splash square button bg-image" data-square-content="Stonington"><div class='inner'><h2>Stonington</h2></div></a>
                     </div>
                 </div>
             </div>

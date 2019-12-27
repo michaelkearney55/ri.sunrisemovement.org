@@ -8,6 +8,20 @@ footer .layout:first-child {
 footer .layout:last-child {
   padding-bottom: 80px;
 }
+.social-container {
+  display: flex;
+  justify-content: center;
+}
+.social-container a {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  padding: 10px;
+}
+.social-container a img {
+  max-width: 100%;
+  max-height: 100%;
+}
 .footer-layout {
   display: flex;
   flex-wrap: wrap;

@@ -1,8 +1,8 @@
 * {
   margin: 0;
   border: none;
-  font-size: inherit;
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: inherit;
   font-weight: inherit;
 }
 body {
@@ -180,7 +180,8 @@ Setting up color themes
   align-items: center;
   justify-content: center;
 }
-img {
+img,
+.video {
   max-height: 100%;
   max-width: 100%;
 }
@@ -394,6 +395,9 @@ Setting up div structure
 @media screen and (max-width: 900px) {
   .layout.pair {
     flex-direction: column;
+  }
+  .layout.pair .img-wrapper {
+    max-width: 80%;
   }
 }
 @media screen and (min-width: 901px) {

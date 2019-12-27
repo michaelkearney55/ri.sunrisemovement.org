@@ -1,8 +1,26 @@
 <footer>
-    <div class="background gray">
+    <section class='background yellow'>
+        <div class='container'>
+            <div class='layout wide'>
+                <h1>Connect with Sunrise</h1>
+            </div>
+            <div class='layout wide social-container'>
+                <a class="fade-on-hover" href="https://facebook.com/SunriseProvidence" target="_blank">
+                    <img src='/assets/images/logos/social/facebook.svg' />
+                </a>
+                <a class="fade-on-hover" href="https://twitter.com/sunrise_pvd" target="_blank">
+                    <img src='/assets/images/logos/social/twitter.svg' />
+                </a>
+                <a class="fade-on-hover" href="https://www.instagram.com/sunrise_pvd/" target="_blank">
+                    <img src='/assets/images/logos/social/instagram.svg' />
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="background gray">
         <div class="container">
             <div class="layout wide text-align-center donate-wrapper">
-                <a href='https://secure.actblue.com/donate/sunrise-ri?refcode=ri-website-footer&recurring=true&amount=25' class="donate button yellow" target='_blank'>Donate</a>
+                <a href='https://www.gofundme.com/f/sunrisePVD2020' class="donate button yellow" target='_blank'>Donate</a>
             </div>
             <div class="layout wide footer-layout">
                 <div class="stay-connected">
@@ -37,5 +55,5 @@
                 <small class="copyright center-self">&#169; 2019 Sunrise Rhode Island.</small>
             </div>
         </div>
-    </div>
+    </section>
 </footer>
