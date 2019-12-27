@@ -180,14 +180,26 @@ Setting up color themes
   align-items: center;
   justify-content: center;
 }
-img,
-.video {
+img {
   max-height: 100%;
   max-width: 100%;
 }
 .img-wrapper {
   padding-top: 15px;
   padding-bottom: 15px;
+}
+.vid-wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56%;
+}
+.vid-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
 }
 hr {
   display: block;
