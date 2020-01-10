@@ -52,7 +52,7 @@
                 </div>
             </div>
             <div class="layout wide text-align-center">
-                <small class="copyright center-self">&#169; 2019 Sunrise Rhode Island.</small>
+                <small class="copyright center-self">&#169; 2020 Sunrise Rhode Island.</small>
             </div>
         </div>
     </section>
