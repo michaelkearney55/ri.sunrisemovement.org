@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <?php
-    $title = "Template";
+    $title = "Sunrise After Sunset";
     $root = $_SERVER['DOCUMENT_ROOT'];
     $url = "https://ri.sunrisemovement.org/rsvp/";
 ?>
@@ -11,7 +11,7 @@
         <?php include $root . '/assets/snippets/head.php' ?>
         
         <!-- Set up Open Graph Protocol -->
-        <meta property="og:title" content=<?php echo $title . 'Sunrise RI' ?>>
+        <meta property="og:title" content=<?php echo $title . ' | Sunrise RI' ?>>
         <meta property="og:site_name" content="Sunrise RI" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://ri.sunrisemovement.org/rsvp/" />

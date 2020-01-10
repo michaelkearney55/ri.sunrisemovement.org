@@ -12,7 +12,7 @@
         <meta http-equiv="Refresh" content="1; url=https://secure.actblue.com/donate/sunrise-ri?refcode=ri-website-header&recurring=true&amount=25" />
         
         <!-- Set up Open Graph Protocol -->
-        <meta property="og:title" content=<?php echo $title . 'Sunrise RI' ?>>
+        <meta property="og:title" content=<?php echo $title . ' | Sunrise RI' ?>>
         <meta property="og:site_name" content="Sunrise RI" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://ri.sunrisemovement.org/" />
