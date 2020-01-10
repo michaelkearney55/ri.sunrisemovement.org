@@ -36,8 +36,8 @@
                     <h6>Learn More</h6>
                     <a href='/'>Home</a>
                     <!--<a href='/about'>About</a>
-                    <a href='/green-new-deal'>Green New Deal</a>-->
-                    <a href='/about'>About</a>
+                    <a href='/green-new-deal'>Green New Deal</a>
+                    <a href='/demands/'>Our Demands</a>-->
                     <a href='/get-involved'>Get Involved</a>
                     <!--<a href='green-new-deal.php'>Green New Deal</a>
                     <a href='get-involved.php'>Get Involved</a>-->
