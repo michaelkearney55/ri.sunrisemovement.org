@@ -32,7 +32,7 @@
                         <div>
                             <h2>Sunrise After Sunset</h2>
                             <h3>An evening to benefit Sunrise Providence</h3>
-                            <p class='text-align-center text-bold'>7:00–9:30pm on Thursday, January 23, 2020</p>
+                            <p class='text-align-center text-bold'>7:00–9:30pm on Thursday, January 30, 2020</p>
                             <p class='text-align-center text-bold'>Rhode Island Spirits<br>59 Blackstone Avenue<br>Pawtucket, RI 02860</p>
                             <p class='text-align-center'>Food by Plant City<br>Cash bar featuring local spirits!</p>
                             <p class='text-align-center'>Meet Sunrise organizers and join the movement to stop climate change and win a Green New Deal!</p>
