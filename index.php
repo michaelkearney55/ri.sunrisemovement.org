@@ -44,7 +44,7 @@
             <section class='background light'>
                 <div class='container'>
                     <div class='layout wide'>
-                        <h2>We demand climate justice.</h2>
+                        <h2>We demand climate justice</h2>
                     </div>
                     <div class='layout wide pair'>
                         <div class='first-on-mobile'>
@@ -65,7 +65,7 @@
             <section class='background magenta'>
             <div class='container'>
                 <div class='layout wide'>
-                    <h2>The Green New Deal.</h2>
+                    <h2>The Green New Deal</h2>
                 </div>
                 <div class='layout wide pair'>
                     <div>
