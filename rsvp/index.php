@@ -29,16 +29,10 @@
             <section class="background light">
                 <div class="container">
                     <div class='layout pair'>
-                        <div>
-                            <h2>Sunrise After Sunset</h2>
-                            <h3>An evening to benefit Sunrise Providence</h3>
-                            <p class='text-align-center text-bold'>7:00–9:30pm on Thursday, January 30, 2020</p>
-                            <p class='text-align-center text-bold'>Rhode Island Spirits<br>59 Blackstone Avenue<br>Pawtucket, RI 02860</p>
-                            <p class='text-align-center'>Food by Plant City<br>Cash bar featuring local spirits!</p>
-                            <p class='text-align-center'>Meet Sunrise organizers and join the movement to stop climate change and win a Green New Deal!</p>
-                            <p class='text-align-center'>Please bring your checkbook or a credit card. We deeply appreciate your support.</p>
+                        <div class='img-wrapper'>
+                            <img src='/assets/images/photos/invitation_no_rsvp.png'>
                         </div>
-                        <div>
+                        <div class='first-on-mobile'>
 
                             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScX3TNQBCQ1KeBgSq5pQ3Sp75gzg-XSAP2uKR1S_Qf8LK9stw/viewform?embedded=true" width="100%" height="1345" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                         </div>
