@@ -20,7 +20,7 @@
                         </div>
                     </div>
                     <!--<a href='news.php' class='button gray'>News</a>-->
-                    <a href='/get-involved' class='button gray'>Get Involved</a>
+                    <a href='/get-involved' class='button gray'>Join Us</a>
                     <!--<a href='https://sunrisemovement.myshopify.com/' class='button gray'>Shop</a>-->
                     <a href='https://www.gofundme.com/f/sunrisePVD2020' class='button donate' target='_blank'>Donate</a>
                 </nav>
