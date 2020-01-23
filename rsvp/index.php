@@ -30,7 +30,7 @@
                 <div class="container">
                     <div class='layout pair'>
                         <div class='img-wrapper'>
-                            <img src='/assets/images/photos/invitation_no_rsvp.png'>
+                            <img src='/assets/images/photos/invitation.png'>
                         </div>
                         <div class='first-on-mobile'>
 
